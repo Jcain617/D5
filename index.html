@@ -1,106 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-box-sizing: border-box;
-}
-.row::after? {
-	content: "";
-	clear: both;
-	display: block;
-}
-[class*="col-"] {
-	float: left;
-	padding: 25px;
-}
-html  {
-font-family: "Times New Roman", Times,serif;
-}
-.header  {
-	  background-color: #0fb08c;
-	  color: #000000;
-	  padding: 15px;
-}
-.menu ul {
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-}
-.menu li::hover? {
-	  background-color: #008ccc;
-}
-.aside  {
-	  background-color: #008ccc;
-	  padding: 15px;
-	  color:000000;
-	  text-align: center;
-	  font-size: 14px;
-	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-.footer  {
-	  background-color: #0fb08c;
-	  color: #ffffff;
-	  text-align: center;
-	  font-size: 12px
-	  padding: 15px;
-}
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body>
-<div class="header">
-	<h1>Gott'ems</h1>
-</div>
-
-<div class="row">
-	<div class="col-3 menu">
-		<ul>
-		<li><a href="#money">Money</a></li>
-		<li><a href="#power">Power</a></li>
-		<li><a href="#respect">Respect</a></li>
-		<li><a href="#soul mate">Soul Mate</a></li>
-		</ul>
-	</div>
-	<div class="col-6">
-	   <h2>Everybody Wants</h2>
-	   <p>In life everyone strives to accumlate these things; None of it is possable without the help of God.</p>
-	</div>
-
-	<div class="col-3 right">
-	   <div class="col-3 aside">
-		<h2>Who?</h2>
-		<p>Hard working people.</p>
-		<h2>What?</h2>
-		<p>Power to change the world.</p>
-		<h2>Where?</h2>
-		<p>Any where in the world.</p>
-		<h2>Why?</h2>
-		<p>Nobody wants to be lonely.</p>
-	   </div>
-	</div>
-	<footer class="footer">
-		<p>contact: Jason Cain<br>contact number: (857) 505-6979<br>email address: <a href=#cainjason19@gmail.com> cainjason19@gmail.com</a></p>
-	</footer> 
-</body>
+<html lang="en">
+    <head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-eqviv="X-UA-Compatible" content="ie-edge">
+            <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css"  />
+            <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+    <header class="bg-orange-500 h-12 w-full"></header>
+        <main class="bg-white w-full flex" style="height: calc(100vh - 100px);">
+          <nav class="bg-gray-300 w-0 lg:w-2/12 h-full"></nav>
+        	<section class="bg-orange-300 w-full lg:w-10/12 h-full"></section>
+        </main>
+		<footer class="bg-black h-12 w-full"></footer>
+    </body>
 </html>
